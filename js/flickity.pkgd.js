@@ -422,7 +422,7 @@ function getSize( elem ) {
   }
 
   var size = {};
-  size.width = screen.width;//elem.offsetWidth;
+  size.width = elem.offsetWidth;
   size.height = elem.offsetHeight;
 
   var isBorderBox = size.isBorderBox = style.boxSizing == 'border-box';
@@ -436,8 +436,8 @@ function getSize( elem ) {
     size[ measurement ] = !isNaN( num ) ? num : 0;
   }
 
-  var paddingWidth = 0;//size.paddingLeft + size.paddingRight;
-  var paddingHeight = 0;//size.paddingTop + size.paddingBottom;
+  var paddingWidth = size.paddingLeft + size.paddingRight;
+  var paddingHeight = size.paddingTop + size.paddingBottom;
   var marginWidth = size.marginLeft + size.marginRight;
   var marginHeight = size.marginTop + size.marginBottom;
   var borderWidth = size.borderLeftWidth + size.borderRightWidth;

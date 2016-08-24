@@ -12,6 +12,7 @@ http://flickity.metafizzy.co
   overflow: hidden;
   position: relative;
   height: 100%;
+  width: 100%;
 }
 
 .flickity-slider {
@@ -59,11 +60,29 @@ http://flickity.metafizzy.co
           transform: translateY(-50%);
 }
 
-.flickity-prev-next-button:hover { background: white; }
+
+
+/* big buttons, no circle */
+.flickity-prev-next-button {
+  width: 100px;
+  height: 100px;
+  background: transparent;
+}
+.flickity-prev-next-button:hover {
+  background: transparent;
+}
+/* arrow color */
+.flickity-prev-next-button .arrow {
+  fill: white;
+}
+.flickity-prev-next-button.no-svg {
+  color: white;
+}
 
 .flickity-prev-next-button:focus {
   outline: none;
   box-shadow: 0 0 0 5px #09F;
+  opacity: 0.1;
 }
 
 .flickity-prev-next-button:active {
@@ -138,18 +157,24 @@ body { font-family: sans-serif; }
   background: #EEE;
 }
 
+
 .carousel-cell {
-  margin-right: 0px;
-  overflow: hidden;
+  width: 150%;
+  height: 450px;
+  margin-right: 10px;
+  background: #8C8;
+  border-radius: 5px;
+  counter-increment: gallery-cell;
 }
 
 .carousel-cell img {
   display: block;
-  height: 200px;
+  height: 100%;
 }
 
 @media screen and ( min-width: 768px ) {
   .carousel-cell img {
-    height: 400px;
+    height: 100%;
+    width: 100%;
   }
 }

@@ -1255,7 +1255,7 @@ Flickity.defaults = {
   freeScrollFriction: 0.075, // friction when free-scrolling
   friction: 0.28, // friction when selecting
   namespaceJQueryEvents: true,
-  // initialIndex: 0,
+  initialIndex: 0,
   percentPosition: true,
   resize: true,
   selectedAttraction: 0.025,

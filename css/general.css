@@ -1040,6 +1040,9 @@ color: #ECEBEB;
 .grouple {
 	background: url(../img/slide/grouple.png) no-repeat center center;
 }
+.fitfrog {
+			background: url(../img/slide/fitfrog.png) no-repeat center center;
+}	
 
 /* Media Queries */
 /* Media queries!
@@ -1097,6 +1100,11 @@ color: #ECEBEB;
 		.grouple {
 			background: url(../img/slide/groupleMobile.png) no-repeat center center;
 		}	
+		
+		.fitfrog {
+			background: url(../img/slide/fitfrogMobile.png) no-repeat center center;
+		}	
+
 	}
 
 /* Mobile Landscape */

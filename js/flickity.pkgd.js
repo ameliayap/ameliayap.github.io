@@ -1248,7 +1248,7 @@ function Flickity( element, options ) {
 
 Flickity.defaults = {
   accessibility: true,
-  // adaptiveHeight: false,
+  adaptiveHeight: true,
   cellAlign: 'center',
   // cellSelector: undefined,
   // contain: false,

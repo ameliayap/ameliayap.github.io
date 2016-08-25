@@ -1037,6 +1037,10 @@ color: #ECEBEB;
 	background: url(../img/slide/vibernate.png) no-repeat center center;
 }
 
+.grouple {
+	background: url(../img/slide/grouple.png) no-repeat center center;
+}
+
 /* Media Queries */
 /* Media queries!
 -------------------------------------------------------------------------------*/
@@ -1090,7 +1094,9 @@ color: #ECEBEB;
 			background: url(../img/slide/vibernateMobile.png) no-repeat center center;
 		}
 		
-		
+		.grouple {
+			background: url(../img/slide/groupleMobile.png) no-repeat center center;
+		}	
 	}
 
 /* Mobile Landscape */

@@ -1033,6 +1033,10 @@ color: #ECEBEB;
 	transition: none !important;
 }
 
+.vibernate {
+	background: url(../img/slide/vibernate.png) no-repeat center center;
+}
+
 /* Media Queries */
 /* Media queries!
 -------------------------------------------------------------------------------*/
@@ -1081,6 +1085,10 @@ color: #ECEBEB;
 		#gallery1{display:none}
 		
 		.button_down {display:none}
+
+		.vibernate{
+			background: url(../img/slide/vibernateMobile.png) no-repeat center center;
+		}
 		
 		
 	}

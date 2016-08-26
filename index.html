@@ -220,7 +220,7 @@
 					  </div>
 					  <div class="carousel-cell grouple">
 						  	<a href="http://global.datafest.net/a/datafest.net/globalurbandatafest/projects/grouple" target="_blank">
-							  		<img src="img/transparent.png">
+							  	<img src="img/transparent.png">
 							</a>
 					  </div>
 		  		</div>
@@ -228,6 +228,20 @@
 	</div>
 	
 	<!-- Contact -->
+	<?php
+		if($_POST["submit"]) {
+		$recipient = "amelia_ylh@hotmail.com"; //my email
+		$subject = 'Email message from ameliayap.github.io';
+		$name = $_POST ["InputName"];
+		$email = $_POST["InputEmail"];
+		$message = $_POST["InputMessage"];
+
+		$mailBody="Name: $name\nEmail: $email\n\n$message";
+		$mail($recipient, $subject, $mailBody, "From: $name <$email>");
+		$thankYou="<p>Thank you! We will be in contact with you shortly.</p>";
+		}
+	?>
+
 	<div id="contact" class="content-section-a">
 		<div class="container">
 			<div class="row">
@@ -262,8 +276,8 @@
 							<span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
 						</div>
 					</div>
+					<input type="submit" name="submit" id="submit" value="submit" class="btn wow tada btn-embossed btn-primary pull-right">
 
-					<input type="submit" name="submit" id="submit" value="Submit" class="btn wow tada btn-embossed btn-primary pull-right">
 				</div>
 			</form>
 		</div>

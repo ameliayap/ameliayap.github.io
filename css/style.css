@@ -4446,6 +4446,10 @@ body.vjs-full-window {
   margin-top: 15px;
   text-align: center;
 }
+.job a:hover {
+  color:#7a7a7a;
+}
+
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 2) {
   .login {
     background-image: url(../images/login/imac-2x.png);

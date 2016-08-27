@@ -306,6 +306,13 @@ background: url('../img/AjaxLoader.gif') no-repeat center center #aebab6;
 	margin-bottom: 20px;
 }
 
+.mailing {
+	text-align: center;
+}
+
+.credits {text-align: center;}
+.credits a{color:#C0C0C0;}
+.credits a:hover{color:#A8A8A8;}
 
 
 /* Responsive Stuff */

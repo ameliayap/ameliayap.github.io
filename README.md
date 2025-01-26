@@ -2,4 +2,4 @@
 
 Portfolio of my work experience, skills, education and interests. 
 
-Go to ameliayap.ca for finished work! 
+Go to yapamelia.com for finished work! 
